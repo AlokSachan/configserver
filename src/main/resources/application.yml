@@ -11,5 +11,6 @@ spring:
           default-label: master  #branch name
           timeout: 5            #default time out in ms if unable to connect git
           force-pull: true      # clone repo in local
+          clone-on-start: true
 server:
   port: 8071
